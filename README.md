@@ -3,10 +3,10 @@
 ![Orange Brown Cute Illustrative Bingo Game Presentation (1)](https://github.com/user-attachments/assets/79757aac-23b3-467d-8eae-b7f4ad8cd286)
 # 🖼️ Outlining and Highlighting Road Signs Images Using Contour Detection 
 
-## 🚦 Road Safety Signs
+## 🚦 Road Signs
 
 ### 📖 Introduction
-Welcome to the **Road Safety Signs** repository! This project explores the critical task of traffic sign recognition using computer vision techniques. Our focus is on leveraging contour detection to accurately identify and interpret road signs, ensuring safer navigation for drivers and autonomous vehicles.
+Welcome to the **Road Signs** repository! This project explores the critical task of traffic sign recognition using computer vision techniques. Our focus is on leveraging contour detection to accurately identify and interpret road signs, ensuring safer navigation for drivers and autonomous vehicles.
 
 This repository focuses on commonly recognized traffic signs, including:
 - 🛑 **Stop Signs**
@@ -20,7 +20,7 @@ This repository focuses on commonly recognized traffic signs, including:
 
 🚗 **Traffic Sign Recognition**  
 Traffic sign recognition is a crucial application in computer vision, directly impacting:
-- 🛡️ **Road Safety**: Ensuring drivers receive clear information about road conditions and regulations.
+- 🛡️ **Road Signs**: Ensuring drivers receive clear information about road conditions and regulations.
 - 🤖 **Autonomous Vehicles**: Enabling self-driving systems to navigate efficiently and safely.  
 Accurate traffic sign recognition reduces accidents and enhances traffic management.
 
@@ -65,6 +65,36 @@ This approach is especially critical for:
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (2)](https://github.com/user-attachments/assets/5930cb13-dc53-4907-b2e4-335203b09ec4)
+
+### 📜 Abstract
+
+The objective of this project is to develop a **computer vision system** for detecting and recognizing road safety signs or traffic signs using **contour detection techniques**. By focusing on the geometric shapes that define common road signs—such as:
+- 🔴 **Circles** (e.g., Stop signs 🛑)
+- 🔼 **Triangles** (e.g., Yield signs ⚠️)
+- 🔷 **Rectangles** (e.g., Informational signs ℹ️)
+
+We aim to create a robust method for extracting sign boundaries and identifying their types.
+
+---
+
 ![Orange Brown Cute Illustrative Bingo Game Presentation (3)](https://github.com/user-attachments/assets/a0f08413-bcfe-4a3d-a59c-7230e7d51be5)
+
+### 📂 Methodology
+- 🛠️ **Preprocessing**: Enhancing road sign images for better contour detection.
+- 🖼️ **Contour Detection**: Identifying boundaries of traffic signs.
+- 🔍 **Shape Classification**: Determining the type of traffic sign based on its geometry.
+
+### 📊 Dataset
+The **Road Sign Detection dataset** will be utilized to validate the system's performance and ensure it can:
+- ✅ Detect signs accurately.
+- ✅ Classify signs into their respective types.
+
+This framework integrates geometric recognition into a **traffic sign recognition system** designed to improve:
+- 🚘 **Autonomous Driving Systems**
+- 🧭 **Driver Assistance Technologies**
+
+---
+
 ![Orange Brown Cute Illustrative Bingo Game Presentation (4)](https://github.com/user-attachments/assets/5aff4895-e619-470c-82e4-59cdfdd10eb7)
 ![Orange Brown Cute Illustrative Bingo Game Presentation (5)](https://github.com/user-attachments/assets/7bf26f7b-7c1b-4b5f-b581-a0c254289bd4)
+**Join us in building smarter, safer roads through cutting-edge computer vision technology!** 🚦✨
