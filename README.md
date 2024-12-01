@@ -97,4 +97,8 @@ This framework integrates geometric recognition into a **traffic sign recognitio
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (4)](https://github.com/user-attachments/assets/5aff4895-e619-470c-82e4-59cdfdd10eb7)
 ![Orange Brown Cute Illustrative Bingo Game Presentation (5)](https://github.com/user-attachments/assets/7bf26f7b-7c1b-4b5f-b581-a0c254289bd4)
+
+---
 **Join us in building smarter, safer roads through cutting-edge computer vision technology!** 🚦✨
+
+![Orange Brown Cute Illustrative Bingo Game Presentation (7)](https://github.com/user-attachments/assets/c33aefff-0ad7-40fb-a6f8-21fcd78267c3)
