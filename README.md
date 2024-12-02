@@ -1,4 +1,9 @@
-# MeXEE402_Finals_4101_Adoptante-and-Ortega
+<div align="center">
+
+# 🎯 **MeXEE402 Finals - 4101: Adoptante and Ortega**
+
+</div>
+
 ![Orange Brown Cute Illustrative Bingo Game Presentation (6)](https://github.com/user-attachments/assets/34c913b1-77ba-4a5a-8cfd-edb857ca5351)
 ![Orange Brown Cute Illustrative Bingo Game Presentation (1)](https://github.com/user-attachments/assets/79757aac-23b3-467d-8eae-b7f4ad8cd286)
 # 🖼️ Outlining and Highlighting Road Signs Images Using Contour Detection 
