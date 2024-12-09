@@ -31,7 +31,7 @@ Accurate traffic sign recognition reduces accidents and enhances traffic managem
 
 🔺 **Key Characteristics of Road Signs**  
 Road signs are designed with simple, easily distinguishable shapes like:
-- 🔴 **Circles**: Example: Stop signs.
+- 🔴 **Circles**: Example: Speed signs.
 - 🔼 **Triangles**: Example: Yield signs.
 - 🔷 **Rectangles**: Example: Information signs.
 
@@ -45,7 +45,7 @@ Contour detection is a foundational method in computer vision used to:
 - 🔍 Recognize geometric shapes and patterns.
 
 This technique aligns perfectly with detecting road signs by outlining their contours, such as:
-- A **circle** for stop signs 🛑.
+- A **circle** for speed signs 🛑.
 - A **triangle** for yield signs ⚠️.
 - A **rectangle** for informational or parking signs 🅿️.
 
@@ -74,7 +74,7 @@ This approach is especially critical for:
 ### 📜 Abstract
 
 The objective of this project is to develop a **computer vision system** for detecting and recognizing road safety signs or traffic signs using **contour detection techniques**. By focusing on the geometric shapes that define common road signs—such as:
-- 🔴 **Circles** (e.g., Stop signs 🛑)
+- 🔴 **Circles** (e.g., Speed signs 🛑)
 - 🔼 **Triangles** (e.g., Yield signs ⚠️)
 - 🔷 **Rectangles** (e.g., Informational signs ℹ️)
 
