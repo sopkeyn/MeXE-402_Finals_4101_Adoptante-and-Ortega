@@ -14,7 +14,7 @@
 Welcome to the **Road Signs** repository! This project explores the critical task of traffic sign recognition using computer vision techniques. Our focus is on leveraging contour detection to accurately identify and interpret road signs, ensuring safer navigation for drivers and autonomous vehicles.
 
 This repository focuses on commonly recognized traffic signs, including:
-- 🛑 **Stop Signs**
+- 🛑 **Speed Signs**
 - ⚠️ **Yield Signs**
 - 🚸 **Pedestrian Crossing Signs**
 - 🅿️ **Parking Signs**
