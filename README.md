@@ -152,9 +152,9 @@ This study underscores the importance of computer vision in modern transportatio
 
 # 🚀 Code
 
-import cv2
+`import cv2
 import numpy as np
-from google.colab.patches import cv2_imshow
+from google.colab.patches import cv2_imshow`
 
 
  
