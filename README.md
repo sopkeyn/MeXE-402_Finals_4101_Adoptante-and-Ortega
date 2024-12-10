@@ -152,13 +152,12 @@ This study underscores the importance of computer vision in modern transportatio
 
 # 🚀 Code
 
-cd MeXEE402_Finals_4101_Adoptante-and-Ortega
-cp /path/to/Outlining_Shapes_with_Contours.ipynb .
-git add Outlining_Shapes_with_Contours.ipynb
+import cv2
+import numpy as np
+from google.colab.patches import cv2_imshow
 
-git commit -m "Add Outlining_Shapes_with_Contours.ipynb"
-git push origin main
 
+ 
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (7)](https://github.com/user-attachments/assets/c33aefff-0ad7-40fb-a6f8-21fcd78267c3)
