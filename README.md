@@ -151,6 +151,71 @@ This study underscores the importance of computer vision in modern transportatio
 ![Orange Brown Cute Illustrative Bingo Game Presentation (5)](https://github.com/user-attachments/assets/7bf26f7b-7c1b-4b5f-b581-a0c254289bd4)
 
 # 🚀 Code
+## Code for Image Processing with OpenCV
+
+Below is the code for importing the necessary libraries to work with image processing in Python using OpenCV and displaying images in Google Colab:
+
+```python
+import cv2
+import numpy as np
+from google.colab.patches import cv2_imshow
+
+
+---
+
+### **Explanation of the Markdown**
+
+1. **Code Block**:
+   - The triple backticks (` ```python `) specify that this is a Python code block, which will automatically highlight the syntax as Python.
+
+2. **Context**:
+   - Added a brief description to explain what the code does.
+
+3. **Instructions**:
+   - Instructions on how to use the code are included after the code block.
+
+---
+
+### **Preview on GitHub**
+
+
+
+```python
+import cv2
+import numpy as np
+from google.colab.patches import cv2_imshow
+
+def detectAndOutlineShapes(img):
+    contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    for cnt in contours:
+        area = cv2.contourArea(cnt)
+        if area > 500:
+            peri = cv2.arcLength(cnt, True)
+            approx = cv2.approxPolyDP(cnt, 0.02 * peri, True)
+            objCor = len(approx)
+            x, y, w, h = cv2.boundingRect(approx)
+
+            # Detect triangles (3 vertices)
+            if objCor == 3:
+                cv2.drawContours(imgContour, [cnt], -1, (0, 255, 0), 4)
+                cv2.putText(imgContour, "Triangle", (x, y - 10), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
+
+            # Detect rectangles (4 vertices)
+            elif objCor == 4:
+                aspRatio = w / float(h)
+                if 0.98 < aspRatio < 1.03:
+                    cv2.drawContours(imgContour, [cnt], -1, (0, 0, 255), 4)
+                    cv2.putText(imgContour, "Square", (x, y - 10), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
+                else:
+                    cv2.drawContours(imgContour, [cnt], -1, (255, 0, 0), 4)
+                    cv2.putText(imgContour, "Rectangle", (x, y - 10), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
+
+            # Detect circles (more than 4 vertices)
+            elif objCor > 4:
+                (x, y), radius = cv2.minEnclosingCircle(cnt)
+                cv2.drawContours(imgContour, [cnt], -1, (0, 255, 255), 4)
+                cv2.putText(imgContour, "Circle", (int(x) - 20, int(y) - 20), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
+
 
 
 
