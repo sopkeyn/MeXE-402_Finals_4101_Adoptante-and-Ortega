@@ -156,7 +156,7 @@ This study underscores the importance of computer vision in modern transportatio
 import numpy as np
 from google.colab.patches import cv2_imshow`
 
-`def detectAndOutlineShapes(img):
+`# def detectAndOutlineShapes(img):
     contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     for cnt in contours:
         area = cv2.contourArea(cnt)
