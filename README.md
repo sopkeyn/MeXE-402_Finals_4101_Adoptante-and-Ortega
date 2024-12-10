@@ -150,6 +150,17 @@ This study underscores the importance of computer vision in modern transportatio
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (5)](https://github.com/user-attachments/assets/7bf26f7b-7c1b-4b5f-b581-a0c254289bd4)
 
+# 🚀 Code
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/road-sign-detection.git
+
+   cd road-sign-detection
+   
+jupyter notebook Outlining_Shapes_with_Contours.ipynb
+
+
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (7)](https://github.com/user-attachments/assets/c33aefff-0ad7-40fb-a6f8-21fcd78267c3)
