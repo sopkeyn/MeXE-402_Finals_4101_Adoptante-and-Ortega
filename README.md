@@ -145,6 +145,7 @@ This project successfully demonstrated the use of contour detection for traffic 
   - Improved traffic systems  
 
 This study underscores the importance of computer vision in modern transportation and serves as a stepping stone for innovations in real-time traffic sign recognition. 🌐 Further refinements, such as incorporating machine learning models alongside contour detection, could address challenges and enhance performance.  
+
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (5)](https://github.com/user-attachments/assets/7bf26f7b-7c1b-4b5f-b581-a0c254289bd4)
