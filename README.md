@@ -156,30 +156,14 @@ This study underscores the importance of computer vision in modern transportatio
 Below is the code for importing the necessary libraries to work with image processing in Python using OpenCV and displaying images in Google Colab:
 
 ```python
+# Part 1: Import Libraries
+```python
 import cv2
 import numpy as np
 from google.colab.patches import cv2_imshow
 
-
----
-
-### **Explanation of the Markdown**
-
-1. **Code Block**:
-   - The triple backticks (` ```python `) specify that this is a Python code block, which will automatically highlight the syntax as Python.
-
-2. **Context**:
-   - Added a brief description to explain what the code does.
-
-3. **Instructions**:
-   - Instructions on how to use the code are included after the code block.
-
----
-
-### **Preview on GitHub**
-
-
-
+```python
+# Part 2: Function to Detect and Outline Shapes
 ```python
 import cv2
 import numpy as np
@@ -216,9 +200,8 @@ def detectAndOutlineShapes(img):
                 cv2.drawContours(imgContour, [cnt], -1, (0, 255, 255), 4)
                 cv2.putText(imgContour, "Circle", (int(x) - 20, int(y) - 20), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
 
-
-
-
+```python
+# Example 1
 
 
  
