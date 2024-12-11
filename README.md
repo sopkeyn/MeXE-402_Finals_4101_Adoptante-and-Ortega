@@ -232,6 +232,62 @@ cv2.waitKey(0)
 
 ```
 
+### Example 2
+
+```
+path = 'Roadsign_Circle.jpg'
+img = cv2.imread(path)
+imgContour = img.copy()
+
+imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+imgBlur = cv2.GaussianBlur(imgGray, (7, 7), 1)
+
+imgCanny = cv2.Canny(imgBlur, 50, 50)
+
+```
+     
+```
+detectAndOutlineShapes(imgCanny)
+
+imgBlank = np.zeros_like(img)
+
+imgStack = stackImages(0.8, ([img, imgGray, imgBlur],
+                             [imgCanny, imgContour, imgBlank]))
+
+```
+
+-1
+
+```
+path = 'Roadsign_Rectangle.jpg'
+img = cv2.imread(path)
+imgContour = img.copy()
+
+imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+imgBlur = cv2.GaussianBlur(imgGray, (7, 7), 1)
+
+imgCanny = cv2.Canny(imgBlur, 50, 50)
+
+```
+     
+```
+detectAndOutlineShapes(imgCanny)
+
+imgBlank = np.zeros_like(img)
+
+imgStack = stackImages(0.8, ([img, imgGray, imgBlur],
+                             [imgCanny, imgContour, imgBlank]))
+
+```
+     
+```
+cv2_imshow(imgStack)
+cv2.waitKey(0)
+     
+```
+
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (7)](https://github.com/user-attachments/assets/c33aefff-0ad7-40fb-a6f8-21fcd78267c3)
