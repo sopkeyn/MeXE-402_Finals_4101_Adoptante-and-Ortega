@@ -152,6 +152,9 @@ This study underscores the importance of computer vision in modern transportatio
 
 # 🚀 Code
 
+## Outlining Shapes with Contours
+### Apply the contour detection code to outline and highlight shapes in simple object images.
+### Part 1: Import Libraries
  
  ```
 import cv2
