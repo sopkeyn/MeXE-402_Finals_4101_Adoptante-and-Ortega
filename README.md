@@ -196,7 +196,41 @@ def detectAndOutlineShapes(img):
                 cv2.drawContours(imgContour, [cnt], -1, (0, 255, 255), 4)
                 cv2.putText(imgContour, "Circle", (int(x) - 20, int(y) - 20), cv2.FONT_HERSHEY_COMPLEX, 0.7, (255, 0, 0), 2)
 ```
-     
+
+### Example 1
+### Part 3: Read Image and Preprocess 
+
+```
+path = 'Roadsign_Triangle.jpg'
+img = cv2.imread(path)
+imgContour = img.copy()
+
+imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+imgBlur = cv2.GaussianBlur(imgGray, (7, 7), 1)
+
+imgCanny = cv2.Canny(imgBlur, 50, 50)
+
+```
+
+### Part 4: Detect and Outline Shapes
+
+```
+detectAndOutlineShapes(imgCanny)
+
+imgBlank = np.zeros_like(img)
+
+imgStack = stackImages(0.8, ([img, imgGray, imgBlur],
+                             [imgCanny, imgContour, imgBlank]))
+```
+
+### Part 5: Display the Outcome
+
+```
+cv2_imshow(imgStack)
+cv2.waitKey(0)
+
+```
 
 ---
 
