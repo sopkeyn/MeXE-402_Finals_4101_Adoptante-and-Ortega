@@ -231,6 +231,10 @@ cv2_imshow(imgStack)
 cv2.waitKey(0)
 
 ```
+![Screenshot 2024-12-11 170354](https://github.com/user-attachments/assets/d2c95c42-c003-48c2-a18e-8f24aa6a7566)
+
+-1
+
 
 ### Example 2
 
@@ -261,6 +265,7 @@ cv2_imshow(imgStack)
 cv2.waitKey(0)
      
 ```
+![Screenshot 2024-12-11 170420](https://github.com/user-attachments/assets/299498e4-7619-45ee-955d-0cbedcffe3ad)
 
 -1
 
@@ -292,6 +297,9 @@ cv2_imshow(imgStack)
 cv2.waitKey(0)
      
 ```
+![Screenshot 2024-12-11 170446](https://github.com/user-attachments/assets/2e66e000-24db-4296-8355-1934d3d7e101)
+
+-1
 
 ---
 
