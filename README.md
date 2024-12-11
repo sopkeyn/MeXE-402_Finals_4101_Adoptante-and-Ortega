@@ -256,6 +256,11 @@ imgStack = stackImages(0.8, ([img, imgGray, imgBlur],
                              [imgCanny, imgContour, imgBlank]))
 
 ```
+```
+cv2_imshow(imgStack)
+cv2.waitKey(0)
+     
+```
 
 -1
 
