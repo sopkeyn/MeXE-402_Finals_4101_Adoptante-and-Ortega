@@ -153,6 +153,14 @@ This study underscores the importance of computer vision in modern transportatio
 # 🚀 Code
 
  
+ ```
+import cv2
+import numpy as np
+from google.colab.patches import cv2_imshow
+ ``` 
+
+     
+
 ---
 
 ![Orange Brown Cute Illustrative Bingo Game Presentation (7)](https://github.com/user-attachments/assets/c33aefff-0ad7-40fb-a6f8-21fcd78267c3)
