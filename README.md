@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 **MeXEE402 Finals - 4101: Adoptante and Ortega**
+# 🎯 **MeXE 402 Finals - 4101: Adoptante and Ortega**
 
 </div>
 
