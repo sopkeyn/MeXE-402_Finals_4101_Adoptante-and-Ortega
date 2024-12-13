@@ -79,7 +79,7 @@ The objective of this project is to develop a **computer vision system** for det
 3. Contribute to safer roads by advancing traffic sign recognition technology.
 
 ---
-The approach involves:
+### 📊 The approach involves:
 
 1. Preprocessing road sign images to enhance visibility and reduce noise.
 2. Utilizing contour detection to identify object boundaries and extract geometric shapes.
