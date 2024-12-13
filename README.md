@@ -313,7 +313,10 @@ This repository contains resources and analyses related to the **Road Sign Detec
 
 ## 🔗 Access the Dataset:   
 [Road Sign Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data)  
-https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data
+Link: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data
 
-## 🔗 Reference Guide for Code:  
-https://www.youtube.com/watch?v=Fchzk1lDt7Q
+## 🔗 Video Guide for Code:  
+Link: https://www.youtube.com/watch?v=Fchzk1lDt7Q
+
+## 🔗 Open CV Guide for Code:
+Link: https://www.youtube.com/watch?v=E3Lg4aZVCAU
