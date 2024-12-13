@@ -312,6 +312,9 @@ cv2.waitKey(0)
 ## 🚦 Road Sign Detection Dataset  
 This repository contains resources and analyses related to the **Road Sign Detection Dataset**, which is available on Kaggle. This dataset is ideal for training and testing machine learning models for road sign detection and recognition tasks.  
 
-## 🔗 Access the Dataset   
+## 🔗 Access the Dataset:   
 [Road Sign Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data)  
 https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data
+
+## 🔗 Reference Guide for Code:  
+https://www.youtube.com/watch?v=Fchzk1lDt7Q
