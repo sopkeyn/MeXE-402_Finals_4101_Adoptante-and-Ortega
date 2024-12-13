@@ -129,9 +129,8 @@ This project successfully demonstrated the use of contour detection for traffic 
 - **🔍 Image Preprocessing**:  
   Variations in lighting, weather conditions, and sign visibility posed challenges in achieving consistent detection accuracy.  
 
-- **❌ Shape Ambiguity**:  
-  Overlapping or damaged signs sometimes led to misclassification, emphasizing the need for robust preprocessing and advanced feature extraction techniques.  
-
+- **❌ Shape Ambiguity or Form Uncertainty**:  
+  Overlapping or damaged signs sometimes led to misclassification or caused errors in detection, highlighting the need for better image processing and advanced techniques to identify features accurately.
 ---
 
 ## 🏆 Outcomes  
