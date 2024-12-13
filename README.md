@@ -62,13 +62,6 @@ This approach is especially critical for:
 
 ---
 
-### 💡 Goals
-1. Implement and optimize contour detection techniques for road sign recognition.
-2. Evaluate the accuracy and efficiency of this approach for various traffic signs.
-3. Contribute to safer roads by advancing traffic sign recognition technology.
-
----
-
 ![Orange Brown Cute Illustrative Bingo Game Presentation (2)](https://github.com/user-attachments/assets/5930cb13-dc53-4907-b2e4-335203b09ec4)
 
 ### 📜 Abstract
@@ -78,7 +71,21 @@ The objective of this project is to develop a **computer vision system** for det
 - 🔼 **Triangles** (e.g., Yield signs ⚠️)
 - 🔷 **Rectangles** (e.g., Informational signs ℹ️)
 
-We aim to create a robust method for extracting sign boundaries and identifying their types.
+---
+
+### 💡 Goals
+1. Implement and optimize contour detection techniques for road sign recognition.
+2. Evaluate the accuracy and efficiency of this approach for various traffic signs.
+3. Contribute to safer roads by advancing traffic sign recognition technology.
+
+---
+The approach involves:
+
+1. Preprocessing road sign images to enhance visibility and reduce noise.
+2. Utilizing contour detection to identify object boundaries and extract geometric shapes.
+3. Classifying traffic signs based on their detected contours and shapes.
+   
+The expected results include a robust and efficient system capable of accurately detecting and classifying road signs across varying environmental conditions. This project aims to contribute to road safety by enhancing traffic management systems and providing foundational advancements for autonomous driving and driver assistance technologies.
 
 ---
 
